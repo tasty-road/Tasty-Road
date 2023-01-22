@@ -19,6 +19,8 @@ repositories {
 }
 
 dependencies {
+	// https://mvnrepository.com/artifact/org.springframework/spring-web
+	implementation group: 'org.springframework', name: 'spring-web', version: '6.0.0'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	compileOnly 'org.projectlombok:lombok'
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
